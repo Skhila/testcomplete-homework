@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="main">
+			<folder name="Steps">
+				<child name="StepThreeSteps" key="{BF40BF42-9B55-4CE4-9F28-761D8941D25D}" path="StepThreeSteps.js" />
+				<child name="CommonSteps" key="{235EC857-2EC3-473F-A151-6F0C2E7F2794}" path="CommonSteps.js" />
+				<child name="StepFourSteps" key="{5FF61E89-7CE9-46B0-86F0-59F08EF7C5D5}" path="StepFourSteps.js" />
+			</folder>
+			<folder name="Data">
+				<child name="TestData" key="{CB65D78B-50F2-4089-931A-76C5AE5B0EFC}" path="TestData.js" />
+			</folder>
+		</folder>
+		<folder name="test">
+			<child name="firstrun" key="{3E835E3B-E79D-456C-BC24-B6B626D14F90}" path="firstrun.js" />
+			<child name="StepThreeRunner" key="{F78215B4-4162-45B8-8908-7FA6A248FCC8}" path="StepThreeRunner.js" />
+			<child name="StepFourRunner" key="{A922F9C6-C191-4E15-827E-BFC069352EF6}" path="StepFourRunner.js" />
+		</folder>
+	</children>
+</Root>
