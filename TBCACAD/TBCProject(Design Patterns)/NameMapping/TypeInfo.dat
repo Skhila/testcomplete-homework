@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TypeInfo StoreCodeCompletion="1">
+	<Child Hash="1055146884" Key="{6CAD9DA7-4B37-489E-80ED-951A115A8802}">
+		<Data Properties="C233487528BD384B9266A8566F7048DBUFFFFFFFFFFFFFFFFV4LBZZY">
+			<FunctionDescriptions>
+				<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="2000" Type="0" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="1" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="1" />
+					</Param2>
+					<Param3>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="1" />
+					</Param3>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="-934726023" Key="{72068662-8DF3-4FBD-A01D-FDD932B601F1}">
+		<Data Properties="52E294BACE14214B9F1A670298510E63UFFFFFFFFFFFFFFFFV4LCZZY">
+			<FunctionDescriptions>
+				<Child Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="1098928521" Key="{B652E834-0DFA-4A00-87D3-27350FEE7464}">
+		<Data Properties="D9A25EB2ADD25748BE5881E3220B9CF2UFFFFFFFFFFFFFFFFV4LAZZY">
+			<FunctionDescriptions>
+				<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="517802916" Key="{8F4A2867-9A41-4580-81D6-78DFA3F78710}">
+		<Data Properties="A6EF2355DA382C45B94896ADC809EDA5UFFFFFFFFFFFFFFFFV4LCZZY">
+			<FunctionDescriptions>
+				<Child Name="ClickItem" Doc="Simulates a click on Item specified by index from 0 or by name, with shift keys in the state specified by Shift." IsBasic="True" Param0="Item" Param1="ByPosition" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="12" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="11" />
+						<ParamDesc Flags="49" Value="True" Type="6" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="wButtonCount" Doc="Returns the total number of buttons in the tool bar control." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="wButtonText" Doc="Returns the name of the button specified by Item, which is position from 0 by default, or idCommand number if ByPosition is specified as False." IsBasic="True" Param0="Item" Param1="ByPosition" Data="ZI4L2L4L2ZG8ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="11" />
+						<ParamDesc Flags="49" Value="True" Type="6" />
+					</Param1>
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="-376309527" Key="{8312C8AE-1EDE-4EBD-9392-8F2F225ED1F2}">
+		<Data Properties="13C2B0DA73D41341AB5B60271B8859AEUFFFFFFFFFFFFFFFFV4LFZZY">
+			<FunctionDescriptions>
+				<Child Name="ClickItem" Doc="Selects the item, specified as an index, from 0, or a name." IsBasic="True" Param0="Item" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="12" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="wItemCount" Doc="Returns the total number of items in the combo box." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="wItem" Doc="Returns the name of the item specified by its index." IsBasic="True" Param0="Index" Data="ZI4L2L4L1ZG8ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="wSelectedItem" Doc="Returns the index of the selected item." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="wText" Doc="Returns the control text." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="DropDown" Doc="Opens the control&apos;s drop-down window." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="-1018564327" Key="{BA1D4CA2-DD1B-4056-BED7-54B82849CC6E}">
+		<Data Properties="C137A311EBEA9A4A9FDF33B48799DE23UFFFFFFFFFFFFFFFFV4LCZZY">
+			<FunctionDescriptions>
+				<Child Name="ClickItem" Doc="Moves the mouse cursor to Item and then simulates a single click. Item may be specified by index, from 0, or by name." IsBasic="True" Param0="Item" Param1="SubItem" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="12" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="12" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="wItemCount" Doc="Returns the total number of items in the list view." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="wItem" Doc="Returns the name of the item specified by its index or using a wildcard." IsBasic="True" Param0="Item" Param1="SubItem" Data="ZI4L2L4L2ZG8ZN">
+					<Param0>
+						<TypeDesc Param0="12" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="12" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param1>
+					<ReturnValue Param0="8" />
+				</Child>
+				<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+	<Child Hash="-144585522" Key="{956A1E5C-5311-4E41-855D-164A3560A5D4}">
+		<Data Properties="3539942A0108804099FD96F8230FC983UFFFFFFFFFFFFFFFFV4LBZZY">
+			<FunctionDescriptions>
+				<Child Name="wDate" Doc="IsDateFormat must be True. Specifies the date selected in the date and time picker control." IsBasic="True" Data="ZI4L2L4ZO7ZN">
+					<ReturnValue Param0="7" />
+				</Child>
+				<Child Name="wTime" Doc="Specifies the time selected in the date and time picker control." IsBasic="True" Data="ZI4L2L4ZO7ZN">
+					<ReturnValue Param0="7" />
+				</Child>
+				<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+					<Param0>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param0>
+					<Param1>
+						<TypeDesc Param0="3" />
+						<ParamDesc Flags="49" Value="-1" Type="0" />
+					</Param1>
+					<Param2>
+						<TypeDesc Param0="29" Type0="TShiftKey" />
+						<ParamDesc Flags="49" Value="0" Type="0" />
+					</Param2>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+					<Param0>
+						<TypeDesc Param0="8" />
+						<ParamDesc Flags="1" />
+					</Param0>
+					<ReturnValue Param0="24" />
+				</Child>
+				<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+					<ReturnValue Param0="3" />
+				</Child>
+				<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+					<ReturnValue Param0="11" />
+				</Child>
+				<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+					<ReturnValue Param0="8" />
+				</Child>
+			</FunctionDescriptions>
+		</Data>
+	</Child>
+</TypeInfo>

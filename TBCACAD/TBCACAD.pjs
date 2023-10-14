@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{FD8DCFB5-6A4E-4726-B5E5-C4D095BC6FF1}">
 	<children>
-		<child name="TBCProject(Basics)" key="{3935A875-F3F7-4C18-A603-9A930EA95888}" path="TBCProject(Basics)\TBCProject(Basics).mds" />
+		<child name="TBCProject(Design Patterns)" key="{A8BE20CC-307D-404B-86EC-C0B3AFAEA13C}" path="TBCProject(Design Patterns)\TBCProject(Design Patterns).mds" />
 	</children>
 	<testItems key="{30A4FB91-46A0-4A9B-9BBD-033F776BDAD9}">
 		<children>
-			<testItem key="{3935A875-F3F7-4C18-A603-9A930EA95888}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{A8BE20CC-307D-404B-86EC-C0B3AFAEA13C}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{2E5F87BD-2C51-4B1C-ACD7-6822C0F25FB3}" />
