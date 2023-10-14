@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Main">
+			<folder name="Data">
+				<child name="TestData" key="{B02BA61B-7623-4F84-9E50-93F514505DB6}" path="TestData.js" />
+			</folder>
+			<folder name="Windows/Pages">
+				<child name="MainPageSteps" key="{8B7AEBA4-6046-4DD4-A916-3A628F2C9879}" path="MainPageSteps.js" />
+				<child name="OrderPageSteps" key="{284ABCF8-491F-45AB-8FA2-45EC4D38D368}" path="OrderPageSteps.js" />
+			</folder>
+			<folder name="Common">
+				<child name="AppActions" key="{CB5C0689-CCAF-4CBB-9D65-692045608855}" path="AppActions.js" />
+				<child name="Assert" key="{BE7945CB-6D70-4B46-B9E5-801183EC604C}" path="Assert.js" />
+			</folder>
+		</folder>
+		<folder name="Test">
+			<folder name="TestCases">
+				<child name="OrdersTestCases" key="{1CA30BFA-2DF9-4E10-ACA8-50DFD5BD0D57}" path="OrdersTestCases.js" />
+			</folder>
+			<folder name="TestRunners">
+				<child name="OrdersTestRunner" key="{A6951C84-8620-486E-B8BF-ED73FC52E759}" path="OrdersTestRunner.js" />
+			</folder>
+		</folder>
+		<child name="secondTask" key="{C8574A68-09FF-456C-A74C-1ACBD45A6F0C}" path="secondTask.js" />
+	</children>
+</Root>
