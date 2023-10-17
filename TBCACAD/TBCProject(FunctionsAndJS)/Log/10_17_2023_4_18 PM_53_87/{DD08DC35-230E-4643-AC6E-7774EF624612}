@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45216.6797933796"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="OrdersTest [Script\OrdersTestRunners - OrdersTestRunner]"/>
+				<Prp name="details" type="S" value="{0FB044BA-F0BD-4F2D-BED7-629F26D330FB}"/>
+				<Prp name="end time" type="D" value="45216.6798454861"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row2">
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45216.6798455787"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="SumConcatTest [Script\StepTwoRunners - runConcatSumOfDigits]"/>
+				<Prp name="details" type="S" value="{E9CDE3B4-D4BF-4807-B381-1D3F25EA72DC}"/>
+				<Prp name="end time" type="D" value="45216.6798477778"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row0">
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45216.6797933565"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="Group1"/>
+				<Prp name="details" type="S" value="{0387689C-7810-4E5F-ACFD-36216111737E}"/>
+				<Prp name="end time" type="D" value="45216.6797933565"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+			<Node name="row3">
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="45216.6798478588"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="name" type="S" value="DateTest [Script\StepTwoRunners - runCustomTodayDateFunction]"/>
+				<Prp name="details" type="S" value="{48A84929-E5BB-41DD-AF1B-8F92B495ACAC}"/>
+				<Prp name="end time" type="D" value="45216.6798500347"/>
+				<Prp name="extended message" type="S" value=""/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>
