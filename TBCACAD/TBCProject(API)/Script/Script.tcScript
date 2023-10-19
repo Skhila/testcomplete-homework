@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Main">
+			<folder name="Common">
+				<child name="CommonFunctions" key="{97585A1D-3E7B-473C-A33E-83F3C21DB799}" path="CommonFunctions.js" />
+				<child name="AppActions" key="{05E9CD09-B13A-4120-8FDF-34513C7A62D7}" path="AppActions.js" />
+				<child name="Assert" key="{25B62E43-CB78-425F-BD71-E4B11AE9D684}" path="Assert.js" />
+			</folder>
+			<folder name="Data">
+				<child name="TestData" key="{A460F373-E8CC-4598-A04B-A7DC43DA696F}" path="TestData.js" />
+			</folder>
+			<folder name="Pages/Window">
+				<child name="MainPageSteps" key="{151FB13B-F0B3-4B60-AA2C-5C25EC692319}" path="MainPageSteps.js" />
+				<child name="OrderPageSteps" key="{DEF743DF-0544-4F18-96C2-FE2063E02869}" path="OrderPageSteps.js" />
+			</folder>
+		</folder>
+		<folder name="Test">
+			<folder name="TestCases">
+				<child name="StepTwoCases" key="{94B01B4D-E5DC-479C-83CA-4085B1D07AA0}" path="StepTwoCases.js" />
+				<child name="StepThreeCases" key="{C9727537-4294-4F82-9414-C749EC76D0A2}" path="StepThreeCases.js" />
+			</folder>
+			<folder name="TestRunners">
+				<child name="TestRunner" key="{5DC6D2EE-BD1D-4264-9359-F7953A201501}" path="TestRunner.js" />
+			</folder>
+		</folder>
+		<child name="Unit1" key="{718B37C8-5EF5-4D64-BD98-186B3B566AEE}" path="Unit1.js" />
+	</children>
+</Root>
